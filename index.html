@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <textarea id="fromText" placeholder="Enter Text"></textarea>
+        <textarea id="toText" placeholder="Translate"></textarea>
+      </div>
+
+      <div class="selectArea">
+        <div class="select">
+          <img
+            src="assets/speaker.svg"
+            alt="Speaker"
+            class="speaker"
+            id="from"
+          />
+          <img src="assets/copy.svg" alt="Copy" class="copy" id="from" />
+          <img src="assets/mic.svg" alt="Mic" class="mic" id="from" />
+          <select id="fselect">
+            <option value="en-GB">English</option>
+            <option value="hi-IN">Hindi</option>
+          </select>
+        </div>
+
+        <div class="select">
+          <img src="assets/speaker.svg" alt="Speaker" class="speaker" id="to" />
+          <img src="assets/copy.svg" alt="Copy" class="copy" id="to" />
+          <select id="sselect">
+            <option value="en-GB">English</option>
+            <option value="hi-IN">Hindi</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="translate">Translate</button>
+    </div>
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
