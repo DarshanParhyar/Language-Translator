@@ -2,7 +2,7 @@
 
 A simple web application that allows users to translate text between different languages, with features like text-to-speech, text copying, and language selection.
 
-# live link of Language [Translator application](https://languagetranslatorapp1.netlify.app/)
+###### [Live Link of Language Translator application](https://languagetranslatorapp1.netlify.app/)
 
 ## Features
 
